@@ -15,6 +15,18 @@ reads the stick positions and tells Windows that position.
 <img height="400" src="DJI-RC-N1-Remote-Controller.png" width="400"/>
 
 -----------------------------------------------------------------------------
+
+설치가이드
+- 1. 파이썬 설치
+  2. 파이썬 패키지 설치
+     CMD 실행 후 -> pip3 install vgamepd 입력 후 엔터
+     pip3 install pyserial 입력 후 엔터
+  3. RC-N1 전원 켜기
+  4. C타입(아랫구멍)으로 컴퓨터와 연결
+  5. main.py 실행 (우클릭 후 파이썬 선택)
+  6. 시뮬레이션 실행
+  % 만약 실행이 안될 시 RC N1 제외 한 모든 USB 제거(키보드 마우스 제외)%
+
 Installation / Usage
 - Install packages before usage:
 - pip3 install vgamepad
@@ -24,10 +36,12 @@ Installation / Usage
 - Connect via bottom type-C
 - run main.py
 - run yor simulator
+% If it does not run, remove all USB except RC N1 (except keyboard and mouse)%
 
 ![](connect_ok.png)
 
 for restart game or recover drone: use camera wheel, left scroll
+게임 재시작 버튼은 카메라 휠을 돌리면 재시작됩니다
 
 ![](control.png)
 
