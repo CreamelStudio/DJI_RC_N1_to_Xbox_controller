@@ -16,7 +16,7 @@ reads the stick positions and tells Windows that position.
 설치가이드
 - 1. 파이썬 설치
   2. 파이썬 패키지 설치
-     CMD 실행 후 -> pip3 install vgamepad 입력 후 엔터
+     CMD 실행 후 -> pip install vgamepad==0.0.4 입력 후 엔터 (기존 프로그램 사용불가 pip uninstall vgamepad 후 재설치)
      pip3 install pyserial 입력 후 엔터
   3. RC-N1 전원 켜기
   4. C타입(아랫구멍)으로 컴퓨터와 연결
